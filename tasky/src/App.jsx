@@ -23,7 +23,7 @@ function App() {
       deadline={task.deadline}
       key={task.id}
     />
-  ))} 
+  ))}
     </div>
   );
 }
