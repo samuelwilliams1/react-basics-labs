@@ -17,7 +17,7 @@ function App() {
     <div className="container">
       <h1>Tasky</h1>
        {taskState.tasks.map((task) => (              
-    <task 
+    <Task 
       title={task.title}
       description={task.description}
       deadline={task.deadline}
