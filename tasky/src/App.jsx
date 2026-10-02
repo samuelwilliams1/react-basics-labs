@@ -4,6 +4,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 import Task from "./components/Task";
+import AddTaskForm from './components/Form';
+
 
 function App() {
     const [ taskState, setTaskState ] = useState({
@@ -44,6 +46,7 @@ function App() {
     />      
     
   ))} 
+   <AddTaskForm />
     </div>
   );
 }
