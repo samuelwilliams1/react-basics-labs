@@ -47,6 +47,22 @@ div {
 
 .priority {
   font-weight: bold;
+  color: white;
+  border-radius: 6px;
+  padding: 4px 0;
+  margin: 8px 12px;
+}
+
+.priority-low {
+  background-color: green;
+}
+
+.priority-medium {
+  background-color: goldenrod;
+}
+
+.priority-high {
+  background-color: red;
 }
 
 button {
